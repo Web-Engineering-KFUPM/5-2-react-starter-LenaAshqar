@@ -12,8 +12,9 @@ function App() {
 
       <main className="dashboard-main">
         <div className="cards-container">
-          {/* TODO: Import and render StudentCard components here */}
-            <StudentCard />
+            <h1>Student Info</h1>
+            <StudentCard name="Lena Ashqar" id="202282660" dept="ICS/SWE Department"/>
+            <StudentCard name="Reema AlQahtani" id="202244660" dept="ICS/SWE Department"/>
         </div>
       </main>
     </div>
